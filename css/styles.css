@@ -32,11 +32,11 @@ body {
 /* FORM TITLES */
 form h1 {
     font-weight: bold;
-    margin-bottom: 15px;
+    margin-bottom: 1px;
 }
 
 form span {
-    font-size: 14px;
+    font-size: 15px;
     margin-bottom: 10px;
 }
 
@@ -56,7 +56,7 @@ input {
 input:focus {
     background: #fff;
     box-shadow: 0 0 8px rgba(74, 123, 247, 0.6);
-    border: 1px solid #4a7bf7;
+    border: 1.4px solid #4a7bf7;
 }
 
 /* BUTTONS */
@@ -66,16 +66,16 @@ button {
     padding: 12px 45px;
     border-radius: 20px;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
     margin-top: 10px;
     cursor: pointer;
-    transition: transform 0.2s, background 0.25s;
+    transition: transform 0.5s, background 0.25s;
 }
 
 button:hover {
     background-color: #345fd1;
-    transform: scale(1.05);
+    transform: scale(1.06);
 }
 
 button.ghost {
@@ -86,7 +86,7 @@ button.ghost {
 /* FORGOT PASSWORD */
 .forgot-password {
     margin: 10px 0;
-    font-size: 14px;
+    font-size: 15px;
     color: #4a7bf7;
     text-decoration: none;
     font-weight: 500;
@@ -104,7 +104,7 @@ button.ghost {
 }
 
 .social-icons a {
-    border: 1px solid #ccc;
+    border: 1px solid #bbb7b7;
     border-radius: 50%;
     display: inline-flex;
     justify-content: center;
@@ -112,7 +112,7 @@ button.ghost {
     margin: 0 5px;
     height: 40px;
     width: 40px;
-    color: #ccc;
+    color: #5094ec;
     text-decoration: none;
     font-size: 18px;
     transition: 0.3s;
@@ -121,7 +121,7 @@ button.ghost {
 .social-icons a:hover {
     background-color: #345fd1;
     color: #fff;
-    border-color: #345fd1;
+    border-color: #7b9fee;
 }
 
 /* FORM CONTAINERS */
@@ -196,7 +196,7 @@ form {
     transition: transform 0.6s ease-in-out;
 }
 
-/* OVERLAY ACTIVE */
+/* OVERLAY ACTIVEe  */
 .container.right-panel-active .overlay-container {
     transform: translateX(-100%);
 }
@@ -235,4 +235,9 @@ form {
 
 .container.right-panel-active .overlay-right {
     transform: translateX(20%);
+}
+
+.fa-regular {
+    color: #4a7bf7; 
+    font-size: 32px;
 }

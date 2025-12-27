@@ -4,6 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"
+        href="https://img.favpng.com/15/13/21/computer-icons-user-login-desktop-wallpaper-png-favpng-50cVSt0m1jw7SRtPEv8KvVUvF.jpg"
+        type="image/x-icon">
     <title>Login & Register</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -17,15 +20,15 @@
         <!-- Sign Up Form-->
         <div class="form-container sign-up-container">
             <form action="#">
-                <h1>Crea tu Cuenta</h1>
+                <h1>Crea tu Cuenta <i class="fa-regular fa-user user-blue"></i></h1><br>
                 <input type="text" placeholder="Nombre Completo">
                 <input type="email" placeholder="Correo">
                 <input type="password" placeholder="Contraseña">
-                <button>Iniciar</button>
-                <span>O conectate con una red social</span>
+                <button>Iniciar</button><br>
+                <span>Siguenos en nuestras redes sociales:</span>
 
                 <div class="social-icons">
-                    <a href="#"><i class="fa-brands fa-google"></i></a>
+                    <a href="#"><i class="fa-brands fa-google" title="Goole"></i></a>
                     <a href="#"><i class="fa-brands fa-facebook"></i></a>
                     <a href="#"><i class="fa-brands fa-twitter"></i></a>
                     <a href="#"><i class="fa-brands fa-youtube"></i></a>
@@ -36,7 +39,8 @@
         <!-- Sign in Form -->
         <div class="form-container sign-in-container">
             <form action="#">
-                <h1>¡Bienvenido!</h1>
+                <h1>¡Bienvenido!<i class="fa-regular fa-hand"></i> </h1> <br>
+                <img src="https://cdn-icons-png.flaticon.com/512/9187/9187604.png" width="90px" alt="Usuario"><br>
                 <input type="email" placeholder="Correo">
                 <input type="password" placeholder="Contraseña">
                 <a href="#" class="forgot-password" id="forgotbtn">¿Olvidaste tu contraseña?</a>
@@ -52,20 +56,22 @@
         </div>
 
         <!-- Overlay -->
-         <div class="overlay-container">
+        <div class="overlay-container">
             <div class="overlay">
                 <div class="overlay-panel overlay-left">
+                    <img src="img/circulo.png" width="141px"><br>
                     <h1>¿Tienes una Cuenta?</h1>
-                    <p>Inicia sesión  y empieza tu trabajo </p>
+                    <p>Inicia sesión y empieza tu trabajo </p><br>
                     <button class="ghost" id="signIn">Acceder</button>
                 </div>
                 <div class="overlay-panel overlay-right">
+                    <img src="https://cdn-icons-png.flaticon.com/256/9385/9385270.png" width="141px"><br>
                     <h1>¿Eres nuevo? Registrate</h1>
-                    <p>Crea una cuenta y empieza tu trabajo </p>
+                    <p>Crea una cuenta y empieza tu trabajo </p><br>
                     <button class="ghost" id="signUp"> Registrarse</button>
                 </div>
             </div>
-         </div>
+        </div>
     </div>
     <script src="js/script.js"></script>
 </body>
